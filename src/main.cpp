@@ -17,7 +17,7 @@ int main(int argc,char** argv){
     const int HEIGHT = 600;
     auto mesh = makeGrassPlane(100.0f);
     Engine engine(WIDTH, HEIGHT, mesh);
-    if(!engine.init("Grass World")){
+    if(!engine.init("Unkown")){
         return -1;
     }
     engine.runLoop();
